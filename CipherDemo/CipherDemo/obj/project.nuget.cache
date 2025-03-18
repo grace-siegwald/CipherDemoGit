@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "CQcyh5SY31A=",
+  "dgSpecHash": "/WY60jN4sXI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Siegwald\\OneDrive - Columbia College Chicago\\School - Spring 2025\\Programing\\CipherDemo\\CipherDemo\\CipherDemo.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/Users/grace.siegwald/Documents/GitHub/CipherDemoGit/CipherDemo/CipherDemo/CipherDemo.csproj",
+  "expectedPackageFiles": [
+    "/Users/grace.siegwald/.nuget/packages/microsoft.netcore.app.ref/8.0.13/microsoft.netcore.app.ref.8.0.13.nupkg.sha512",
+    "/Users/grace.siegwald/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.13/microsoft.aspnetcore.app.ref.8.0.13.nupkg.sha512",
+    "/Users/grace.siegwald/.nuget/packages/microsoft.netcore.app.host.osx-arm64/8.0.13/microsoft.netcore.app.host.osx-arm64.8.0.13.nupkg.sha512"
+  ],
   "logs": []
 }

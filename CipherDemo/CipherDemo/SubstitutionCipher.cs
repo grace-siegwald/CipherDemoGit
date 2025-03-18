@@ -8,7 +8,7 @@ namespace CipherDemo
 {
     internal class SubstitutionCipher
     {
-        char[] alphabet = { 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z' };
+        string alphabet = "abcdefghijklmnopqrstuvwxyz";
         string substitute = "opdefghiqrsxyzabcjklmntuvw";
         public SubstitutionCipher()
         {
@@ -22,11 +22,9 @@ namespace CipherDemo
 
             foreach (char letter in input) 
             {
-                Console.Write(substitute.IndexOf(alphabet, alphabet.IndexOf(letter)));
-
-                alphabet.IndexOf(letter);
+                int index = alphabet.IndexOf(letter);
+                
             }
         }
-
     }
 }
